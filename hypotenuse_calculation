@@ -1,0 +1,22 @@
+# Algorithm for calculating the hypotenuse using the Pythagorean theorem
+from math import *
+
+triangle = input("Is your triangle right-angled ? (yes/no)")
+
+if triangle == "yes":
+  print("We can start !")
+else:
+  print("Impossible to apply the Pythagorean theorem !")
+  exit()
+
+print("Let ABC be a triangle, rectangle in A, BC is the hypotenuse, AB the shortest side")
+# We collect the values
+AB = int(input("Length of side AB :"))
+AC = int(input("Lenght of sde :"))
+
+# Calculation
+BCC = AB**2 + AC**2
+BCC2 = sqrt(BCC)
+
+# Resultat display
+print("The length of BC is :" + str(BCC2))
