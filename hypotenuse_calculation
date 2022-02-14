@@ -20,3 +20,5 @@ BCC2 = sqrt(BCC)
 
 # Resultat display
 print("The length of BC is :" + str(BCC2))
+
+# Developped by Maxence5407
