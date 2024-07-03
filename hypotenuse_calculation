@@ -11,8 +11,8 @@ else:
 
 print("Let ABC be a triangle, rectangle in A, BC is the hypotenuse, AB the shortest side")
 # We collect the values
-AB = int(input("Length of side AB :"))
-AC = int(input("Lenght of side AC:"))
+AB = int(input("Length of side AB: "))
+AC = int(input("Lenght of side AC: "))
 
 # Calculation
 BCC = AB**2 + AC**2
